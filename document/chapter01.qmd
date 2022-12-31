@@ -1,0 +1,31 @@
+# Chapter 1
+
+## Citations & Footnotes
+
+Here is a footnote reference[^1], and another[^longnote].
+
+[^1]: Here is the footnote.
+
+[^longnote]: Here's one with multiple blocks.
+
+Knuth says always be literate [@starke_2020_effektive].
+
+
+## Math
+
+Einstein's theory of special relatively that expresses the equivalence of mass and energy:
+
+$E = mc^{2}$
+
+
+| Default | Left | Right | Center |
+|---------|:-----|------:|:------:|
+| 12      | 12   |    12 |   12   |
+| 123     | 123  |   123 |  123   |
+| 1       | 1    |     1 |   1    |
+
+: Demonstration of pipe table syntax
+
+## Figures
+
+![Tiger](images/tiger.jpg){width=50%}

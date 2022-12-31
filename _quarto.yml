@@ -1,0 +1,14 @@
+project:
+  output-dir: _output
+  render:
+    - main.qmd
+  post-render:
+    - _meta/clean_project.py
+
+bibliography: references.bib
+number-sections: true
+lang: de
+
+format:
+    pdf:
+        code-line-numbers: true

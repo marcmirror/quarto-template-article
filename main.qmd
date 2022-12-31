@@ -1,0 +1,20 @@
+---
+title: Quarto Basics
+author: Obi-Wan Kenobi
+date: now
+toc: true
+---
+
+{{< pagebreak >}}
+\listoffigures
+\listoftables
+\listoflistings
+{{< pagebreak >}}
+
+{{< include document/chapter01.qmd >}}
+{{< include document/chapter02.qmd >}}
+
+{{< pagebreak >}}
+{{< include references.qmd >}}
+{{< pagebreak >}}
+{{< include document/appendix.qmd >}}

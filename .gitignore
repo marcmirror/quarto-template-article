@@ -1,0 +1,11 @@
+*.pdf
+*.html
+*.log
+*.tex
+*.aux
+*.lop
+*.lof
+*.lot
+/.quarto/
+*_files
+!_output/main.pdf

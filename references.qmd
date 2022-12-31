@@ -1,0 +1,6 @@
+{{< pagebreak >}}
+
+# Quellenverzeichnis
+
+::: {#refs}
+:::
