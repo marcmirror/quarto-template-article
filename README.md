@@ -1,6 +1,6 @@
 # Quarto Template
 
-My Quarto template.
+My Quarto template for documents (articles, reports, etc.).
 
 ## Requirements
 
