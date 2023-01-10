@@ -6,6 +6,7 @@
 *.lop
 *.lof
 *.lot
+*.toc
 /.quarto/
 *_files
 !_output/main.pdf

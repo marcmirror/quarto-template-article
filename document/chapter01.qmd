@@ -1,22 +1,65 @@
 # Chapter 1
 
+## Markdown Basics
+
+*italics* and **bold**
+
+~~strikethrough~~
+
+`verbatim code`
+
+## Links
+
+<https://quarto.org>
+
+[Quarto](https://quarto.org)
+
+## Figures
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris fringilla dolor
+metus, eget bibendum erat dictum quis @fig-tiger.
+
+![Lorem ipsum dolor sit amet, consectetur adipiscing elit](images/tiger.jpg){width=30% #fig-tiger}
+
+## Lists
+
+- item 1
+- item 2
+
+### Ordered List
+
+1. ordered item
+2. ordered item
+
+### Nested List
+
+- item 1
+    - nested item 1.1
+- item 2
+    1. nested item 2.1
+    2. nested item 2.2
+
 ## Citations & Footnotes
 
-Here is a footnote reference[^1], and another[^longnote].
+Quasi laudantium modi similique repellat[^1] hic cumque. Inventore omnis et aut
+ullam. Magnam enim sit qui et non ut eaque ut[^longnote].
 
-[^1]: Here is the footnote.
+Ipsum debitis aut cumque [@starke_2020_effektive, pp. 31-33].
 
-[^longnote]: Here's one with multiple blocks.
+[^1]: Here is a footnote.
 
-Knuth says always be literate [@starke_2020_effektive].
-
+[^longnote]: And another footnote.
 
 ## Math
 
-Einstein's theory of special relatively that expresses the equivalence of mass and energy:
+Ut necessitatibus (@eq-black-scholes) quod maiores esse dicta perspiciatis
+explicabo eum:
 
-$E = mc^{2}$
+$$
+E=mc^2
+$$ {#eq-black-scholes}
 
+## Tables
 
 | Default | Left | Right | Center |
 |---------|:-----|------:|:------:|
@@ -24,8 +67,4 @@ $E = mc^{2}$
 | 123     | 123  |   123 |  123   |
 | 1       | 1    |     1 |   1    |
 
-: Demonstration of pipe table syntax
-
-## Figures
-
-![Tiger](images/tiger.jpg){width=50%}
+: Eos quo deleniti odit doloribus nihil repudiandae

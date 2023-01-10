@@ -1,7 +1,10 @@
 # Chapter 2
 
-## Sub Chapter
+## Code Blocks
 
-- item1
-- item2
-- item3
+```{python}
+import matplotlib.pyplot as plt
+
+plt.plot([1,2,3,4])
+plt.show()
+```
