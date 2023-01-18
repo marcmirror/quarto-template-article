@@ -1,4 +1,6 @@
+\thispagestyle{empty}
 {{< pagebreak >}}
+
 \tableofcontents
 \listoffigures
 \listoftables

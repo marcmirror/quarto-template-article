@@ -7,9 +7,6 @@ lang: de
 latex-auto-mk: true
 bibliography: references.bib
 number-sections: true
-# toc: true
-# lof: true
-# lot: true
 
 project:
   output-dir: _output
