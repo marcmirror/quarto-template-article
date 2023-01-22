@@ -1,6 +1,6 @@
-title: Observation of Einstein-Podolsky-Rosen Entanglement on Supraquantum Structures
-author: Gordon Freeman
-institute: Black Mesa
+title: "Observation of Einstein-Podolsky-Rosen Entanglement on Supraquantum Structures"
+author: "Gordon Freeman"
+institute: "Black Mesa"
 date: now
 lang: de
 
@@ -13,7 +13,7 @@ project:
   render:
     - main.qmd
   post-render:
-    - _meta/clean_project.py
+    - _meta/purge_clutter_files.py
 format:
     pdf:
         code-line-numbers: true

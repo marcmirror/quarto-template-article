@@ -5,7 +5,7 @@ My Quarto template for documents (articles, reports, etc.).
 ## Requirements
 
 - [Quarto](https://quarto.org/docs/get-started)
-- Optional: [entr](https://github.com/eradman/entr)
+- Optional: [entr](https://github.com/eradman/entr) (Linux only)
 
 ## Run
 
