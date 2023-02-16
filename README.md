@@ -7,6 +7,12 @@ My Quarto template for documents (articles, reports, etc.).
 - [Quarto](https://quarto.org/docs/get-started)
 - Optional: [entr](https://github.com/eradman/entr) (Linux only)
 
+## Setup
+
+Run once after installation:
+
+`quarto install tinytex`
+
 ## Run
 
 Render the entire project:
