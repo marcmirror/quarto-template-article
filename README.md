@@ -9,7 +9,7 @@ My Quarto template for documents (articles, reports, etc.).
 
 ## Setup
 
-If you don't have a [TeX](https://www.latex-project.org/get/#tex-distributions) installation present on your system the following needs to be exected once after the installation of Quarto:
+If you don't have a [TeX](https://www.latex-project.org/get/#tex-distributions) installation present on your system, the following needs to be executed once after the installation of Quarto:
 
 `quarto install tinytex`
 
