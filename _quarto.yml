@@ -17,5 +17,10 @@ project:
 format:
     pdf:
         code-line-numbers: true
+        include-in-header:
+            text: |
+                \usepackage{fancyhdr} % Footer & header
+                \pagestyle{fancy} % Footer & header
+                \fancyhead[R]{Black Mesa Research Facility} % Header right
 execute:
     enabled: false
