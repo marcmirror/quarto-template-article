@@ -2,6 +2,7 @@ title: "Observation of Einstein-Podolsky-Rosen Entanglement on Supraquantum Stru
 author: "Gordon Freeman"
 institute: "Black Mesa"
 date: now
+date-format: long
 lang: de
 
 latex-auto-mk: true
