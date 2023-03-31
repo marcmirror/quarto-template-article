@@ -1,6 +1,0 @@
-{{< pagebreak >}}
-
-# Quellenverzeichnis {.unnumbered}
-
-::: {#refs}
-:::

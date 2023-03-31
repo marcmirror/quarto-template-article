@@ -1,5 +1,5 @@
-title: "A Sample Thesis"
-subtitle: "With a Subtitle"
+title: "Meine Thesis"
+subtitle: "Untertitel"
 author: "Gordon Freeman"
 institute: "Black Mesa"
 date: now
@@ -10,6 +10,7 @@ latex-auto-mk: true
 bibliography: references.bib
 number-sections: true
 tbl-cap-location: bottom
+csl: _meta/apa.csl
 
 project:
   output-dir: _output
@@ -20,10 +21,15 @@ project:
 format:
     pdf:
         code-line-numbers: true
-        include-in-header:
-            text: |
-                \usepackage{fancyhdr} % Footer & header
-                \pagestyle{fancy} % Footer & header
-                \fancyhead[R]{Black Mesa Research Facility} % Header right
+        geometry:
+            - left=30mm
+            - top=30mm
+            - right=25mm
+            - bottom=25mm
+        fontsize: 11pt
+        mainfont: Arial
+        sansfont: Arial # Title font
+        linestretch: 1.5 # Line spacing
+        monofont: "Courier New" # Code font
 execute:
     enabled: false

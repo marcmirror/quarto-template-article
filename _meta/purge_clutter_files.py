@@ -2,10 +2,16 @@
 import os
 import glob
 
-# Type of files that should be deleted after rendering
+# Type of files that should be deleted after rendering. Disable this script if you need to debug
 extensions = [
     '*.html',
-    '*.lop'
+    '*.lop',
+    '*.lol',
+    '*.fls',
+    '*.aux',
+    '*.lof',
+    '*.lot',
+    '*.toc',
 ]
 
 # Iterate recursively through every directory and find files that match any

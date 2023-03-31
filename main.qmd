@@ -1,16 +1,26 @@
 \thispagestyle{empty}
 {{< pagebreak >}}
 
+\pagenumbering{roman}
+{{< include document/00-abstract.md >}}
+{{< pagebreak >}}
+
 \tableofcontents
-\listoffigures
-\listoftables
 {{< pagebreak >}}
 
-{{< include document/chapter01.qmd >}}
-{{< include document/chapter02.qmd >}}
-<!-- Add more chapters here -->
+\pagenumbering{arabic}
+{{< include document/10-einleitung.md >}}
+{{< pagebreak >}}
+{{< include document/20-methoden.md >}}
+{{< pagebreak >}}
+{{< include document/30-resultate.md >}}
+{{< pagebreak >}}
+{{< include document/40-diskussion.md >}}
+{{< pagebreak >}}
 
-{{< pagebreak >}}
-{{< include references.qmd >}}
-{{< pagebreak >}}
-{{< include document/appendix.qmd >}}
+{{< include _meta/listoffigures.qmd >}}
+{{< include _meta/listoftables.qmd >}}
+
+{{< include _meta/references.qmd >}}
+
+{{< include _meta/selbstaendigkeitserklaerung.md >}}
