@@ -21,6 +21,7 @@ project:
 format:
     pdf:
         code-line-numbers: true
+        papersize: a4
         geometry:
             - left=30mm
             - top=30mm

@@ -9,4 +9,6 @@
 *.toc
 /.quarto/
 *_files
+_output/images
+
 !_output/main.pdf
