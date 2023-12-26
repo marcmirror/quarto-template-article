@@ -28,7 +28,7 @@ My Quarto thesis template.
 ## Requirements
 
 - [Quarto](https://quarto.org/docs/get-started)
-- Fonts: **Arial** for text, **Courier New** for code (like everything else, fonts can be changed in `_quarto.yml`)
+- Fonts: **Arial** for titles and body text (like everything else, fonts can be changed in `_quarto.yml`)
 - Optional: [entr](https://github.com/eradman/entr) (Linux only)
 
 ## Setup

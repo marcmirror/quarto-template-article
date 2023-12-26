@@ -27,10 +27,15 @@ format:
             - top=30mm
             - right=25mm
             - bottom=25mm
+        include-in-header:
+            text: |
+                % Wrap long lines of code
+                \usepackage{fvextra}
+                \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+                \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
         fontsize: 11pt
         mainfont: Arial
         sansfont: Arial # Title font
         linestretch: 1.5 # Line spacing
-        monofont: "Courier New" # Code font
 execute:
     enabled: false
