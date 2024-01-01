@@ -1,3 +1,5 @@
+# This is a read-only mirror of the git repo at https://codeberg.org/marc/quarto-template-article
+
 # Quarto Thesis Template
 
 My Quarto thesis template.
