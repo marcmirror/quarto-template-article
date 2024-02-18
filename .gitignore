@@ -12,3 +12,4 @@
 _output/images
 
 !_output/main.pdf
+!document/*.tex

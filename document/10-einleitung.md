@@ -15,3 +15,9 @@ Wie in @fig-tiger zu erkennen ist ...
 : Beschreibung einer Tabelle {#tbl-meine-tabelle}
 
 Wie in @tbl-meine-tabelle zu erkennen ist ...
+
+Akronym voll: \acrfull{api}
+
+Akronym lang: \acrlong{api}
+
+Akronym kurz: \acrshort{api}

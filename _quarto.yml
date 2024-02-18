@@ -20,6 +20,8 @@ project:
     - _meta/purge_clutter_files.py
 format:
     pdf:
+        # documentclass: scrreprt
+        classoption: nottoc
         code-line-numbers: true
         papersize: a4
         geometry:
@@ -29,10 +31,17 @@ format:
             - bottom=25mm
         include-in-header:
             text: |
+                \usepackage{tocbibind}
+                \usepackage[acronym,nonumberlist]{glossaries}
+                \usepackage{fvextra}
+
                 % Wrap long lines of code
                 \usepackage{fvextra}
                 \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
                 \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
+
+                \input{document/02-acronyms.tex}
+                \makenoidxglossaries
         fontsize: 11pt
         mainfont: Arial
         sansfont: Arial # Title font

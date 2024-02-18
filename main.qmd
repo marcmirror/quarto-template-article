@@ -2,19 +2,20 @@
 {{< pagebreak >}}
 
 \pagenumbering{roman}
-{{< include document/00-abstract.md >}}
+{{< include document/01-abstract.md >}}
 {{< pagebreak >}}
 
 \tableofcontents
 {{< pagebreak >}}
 
+\printnoidxglossary[title=Akronyme,type=acronym]
+\addcontentsline{toc}{section}{Akronyme}
+{{< pagebreak >}}
+
 \pagenumbering{arabic}
 {{< include document/10-einleitung.md >}}
-{{< pagebreak >}}
 {{< include document/20-methoden.md >}}
-{{< pagebreak >}}
 {{< include document/30-resultate.md >}}
-{{< pagebreak >}}
 {{< include document/40-diskussion.md >}}
 {{< pagebreak >}}
 
